@@ -20,7 +20,7 @@ models:
           - unique
           - not_null
   - name: customerorders
-    description: "Orders per customer"
+    description: "Metrics - Orders per customer"
     columns:
       - name: cust_name
         description: "The primary key for this table"
